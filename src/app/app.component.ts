@@ -4,7 +4,7 @@ import {SnakeComponent} from './games/snake/snake.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, SnakeComponent, RouterLink],
+  imports: [RouterOutlet, RouterLink],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
